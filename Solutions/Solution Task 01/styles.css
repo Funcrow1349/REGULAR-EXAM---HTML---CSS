@@ -1,0 +1,88 @@
+/* colors 
+p: 071434
+h3: black
+h1: white
+1st button: B6416D
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.2 Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 950px;
+    display: flex;
+    align-items: center;
+    gap: 1.2em;
+    padding: 2.5em;
+    margin: 0.5em auto;
+    background-color: #1881B6;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8em;
+    flex: 0 0 65%;
+}
+
+h3 {
+    font-size: 22px;
+    padding-bottom: 0.3em;
+}
+
+h1 {
+    font-size: 37px;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 0.2em;
+}
+
+p {
+    color: #071434;
+    text-indent: 3em;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.7em;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5em 1.2em;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+a:nth-child(1) {
+    color: white;
+    background-color: #B6416D;
+    margin-left: 6em;
+}
+
+a:nth-child(2) {
+    color: black;
+    margin-right: 10em;
+
+}
